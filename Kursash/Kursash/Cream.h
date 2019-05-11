@@ -1,8 +1,8 @@
-#pragma once
+п»ї#pragma once
 
-class Cream { //крем
+class Cream { //РєСЂРµРј
 private:
-	int _volume;//объём крема
+	int _volume;//РѕР±СЉС‘Рј РєСЂРµРјР°
 public:
 	explicit Cream() :_volume(0) {}
 	int& volume() { return _volume; }

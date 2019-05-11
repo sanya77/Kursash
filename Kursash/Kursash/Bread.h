@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include "Cream.h"
 #include "Egg.h"
 #include "Milk.h"
@@ -7,7 +7,7 @@
 #include "Smetana.h"
 #include "Water.h"
 
-class Bread { //тип хлеба
+class Bread { //С‚РёРї С…Р»РµР±Р°
 private:
 	Cream *_cream;
 	Egg *_egg;
@@ -32,7 +32,7 @@ public:
 	void setSlivki() { delete _slivki; _slivki = new Slivki; }
 	void setSmetana() { delete _smetana; _smetana = new Smetana; }
 	void setWater() { delete _water; _water = new Water; }
-	//геттеры и сеттеры
+	//РіРµС‚С‚РµСЂС‹ Рё СЃРµС‚С‚РµСЂС‹
 	Cream *cream() { return _cream; }
 	Egg *egg() { return _egg; }
 	Milk *milk() { return _milk; }

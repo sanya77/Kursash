@@ -1,8 +1,8 @@
-#pragma once
+ï»¿#pragma once
 
-class Egg { //ßéöà
+class Egg { //Ğ¯Ğ¹Ñ†Ğ°
 private:
-	int _count;//êîë-âî ÿèö
+	int _count;//ĞºĞ¾Ğ»-Ğ²Ğ¾ ÑĞ¸Ñ†
 public:
 	explicit Egg() :_count(0) {}
 	int& count() { return _count; }

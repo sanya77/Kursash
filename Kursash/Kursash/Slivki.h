@@ -1,8 +1,8 @@
-#pragma once
+п»ї#pragma once
 
-class Slivki { //сливки
+class Slivki { //СЃР»РёРІРєРё
 private:
-	int _volume;//объём сливок
+	int _volume;//РѕР±СЉС‘Рј СЃР»РёРІРѕРє
 public:
 	explicit Slivki() :_volume(0) {}
 	int& volume() { return _volume; }

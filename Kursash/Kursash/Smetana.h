@@ -1,8 +1,8 @@
-#pragma once
+п»ї#pragma once
 
-class Smetana { //сметана
+class Smetana { //СЃРјРµС‚Р°РЅР°
 private:
-	int _volume;//объём сметаны
+	int _volume;//РѕР±СЉС‘Рј СЃРјРµС‚Р°РЅС‹
 public:
 	explicit Smetana() :_volume(0) {}
 	int& volume() { return _volume; }

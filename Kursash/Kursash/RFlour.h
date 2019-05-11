@@ -1,10 +1,10 @@
-#pragma once
+п»ї#pragma once
 #include <string>
 
 
-class Flour { //мука
+class Flour { //РјСѓРєР°
 private:
-	std::string _name;//тип муки
+	std::string _name;//С‚РёРї РјСѓРєРё
 public:
 	explicit Flour() {}
 	std::string& name() { return _name; }

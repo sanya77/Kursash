@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include "Bread.h"
 #include <iostream>
 
@@ -7,10 +7,10 @@ protected:
 	Bread *_bread;
 public:
 	Builder() : _bread(nullptr) {}
-	void CreateBread() { delete _bread; _bread = new Bread; }//создаём основу хлеба
-	virtual void create() = 0;//Выпечка изделия
-	virtual const char* type() const = 0;//тип хлеба
-	virtual void print(std::ostream& out) = 0;//вывод
+	void CreateBread() { delete _bread; _bread = new Bread; }//СЃРѕР·РґР°С‘Рј РѕСЃРЅРѕРІСѓ С…Р»РµР±Р°
+	virtual void create() = 0;//Р’С‹РїРµС‡РєР° РёР·РґРµР»РёСЏ
+	virtual const char* type() const = 0;//С‚РёРї С…Р»РµР±Р°
+	virtual void print(std::ostream& out) = 0;//РІС‹РІРѕРґ
 	virtual ~Builder() {
 		delete _bread;
 	}

@@ -1,8 +1,8 @@
-#pragma once
+п»ї#pragma once
 
-class Water { //вода
+class Water { //РІРѕРґР°
 private:
-	int _volume;//объём воды
+	int _volume;//РѕР±СЉС‘Рј РІРѕРґС‹
 public:
 	explicit Water() :_volume(0) {}
 	int& volume() { return _volume; }

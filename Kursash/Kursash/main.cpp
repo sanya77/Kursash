@@ -1,4 +1,4 @@
-#include "Beaker.h"
+ï»¿#include "Beaker.h"
 #include "Pirozhnoe.h"
 #include "Tort.h"
 #include "Karavay.h"
@@ -14,11 +14,11 @@ int main() {
 	setlocale(LC_ALL, "");
 	Beaker beaker;
 	while (true) {
-		cout << "\n1. Ñîçäàòü\n2. Ñ÷èòàòü èç ôàéëà\n3. Âûâåñòè\n4. Âûâåñòè â ôàéë\n";
+		cout << "\n1. Ð¡Ð¾Ð·Ð´Ð°Ñ‚ÑŒ\n2. Ð¡Ñ‡Ð¸Ñ‚Ð°Ñ‚ÑŒ Ð¸Ð· Ñ„Ð°Ð¹Ð»Ð°\n3. Ð’Ñ‹Ð²ÐµÑÑ‚Ð¸\n4. Ð’Ñ‹Ð²ÐµÑÑ‚Ð¸ Ð² Ñ„Ð°Ð¹Ð»\n";
 		int c;
 		cin >> c;
 		if (c == 1) {
-			cout << "1. Ïèðîæíîå\n2. Òîðò\n3. Êàðàâàé\n4. ×èàáàòòà\n5. Áàãåò\n6. Õëåá\n";
+			cout << "1. ÐŸÐ¸Ñ€Ð¾Ð¶Ð½Ð¾Ðµ\n2. Ð¢Ð¾Ñ€Ñ‚\n3. ÐšÐ°Ñ€Ð°Ð²Ð°Ð¹\n4. Ð§Ð¸Ð°Ð±Ð°Ñ‚Ñ‚Ð°\n5. Ð‘Ð°Ð³ÐµÑ‚\n6. Ð¥Ð»ÐµÐ±\n";
 			cin >> c;
 			switch (c) {
 			case 1:
@@ -43,7 +43,7 @@ int main() {
 		}
 		else if (c == 2) {
 			string ss;
-			cout << "Íàçâàíèå ôàéëà: "; cin >> ss;
+			cout << "ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ Ñ„Ð°Ð¹Ð»Ð°: "; cin >> ss;
 			ifstream in(ss);
 			in >> ss >> ss;
 			if (ss == "Pirozhnoe") {
@@ -70,7 +70,7 @@ int main() {
 		}
 		else if (c == 4) {
 			string ss;
-			cout << "Íàçâàíèå ôàéëà: "; cin >> ss;
+			cout << "ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ Ñ„Ð°Ð¹Ð»Ð°: "; cin >> ss;
 			ofstream out(ss);
 			out << beaker;
 		}

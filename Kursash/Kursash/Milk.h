@@ -1,8 +1,8 @@
-#pragma once
+п»ї#pragma once
 
-class Milk { //молоко
+class Milk { //РјРѕР»РѕРєРѕ
 private:
-	int _volume;//объём молока
+	int _volume;//РѕР±СЉС‘Рј РјРѕР»РѕРєР°
 public:
 	explicit Milk() :_volume(0) {}
 	int& volume() { return _volume; }
