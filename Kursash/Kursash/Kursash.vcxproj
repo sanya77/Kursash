@@ -122,6 +122,7 @@
     <ClInclude Include="Egg.h" />
     <ClInclude Include="Hleb.h" />
     <ClInclude Include="Karavay.h" />
+    <ClInclude Include="Milk.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
