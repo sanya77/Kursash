@@ -127,6 +127,7 @@
     <ClInclude Include="RFlour.h" />
     <ClInclude Include="Slivki.h" />
     <ClInclude Include="Smetana.h" />
+    <ClInclude Include="Tort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
