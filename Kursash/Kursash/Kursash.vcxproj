@@ -115,6 +115,7 @@
   <ItemGroup>
     <ClInclude Include="Baget.h" />
     <ClInclude Include="Beaker.h" />
+    <ClInclude Include="Bread.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
